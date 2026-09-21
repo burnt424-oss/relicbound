@@ -1,7 +1,7 @@
 # RELICBOUND — Standing Handoff
 
 > **Purpose:** the single source of truth for the Relicbound project. Any session, any chat, any model — read this file first and you're caught up. Update it whenever something meaningful changes: decisions, build status, story changes, new systems.
-> Last updated: 2026-09-18 (~03:15 PDT) by Abbiecakes.
+> Last updated: 2026-09-21 (~00:25 PDT) by Abbiecakes — 12-hour dev session, Cycle 1 (Brent's blanket permission).
 
 ## 1. What this is
 **Relicbound** — a sci-fantasy tactical JRPG. Brent's game. Personal/solo project; does **not** need to be marketable. The goal is a badass 100+ hour game Brent actually finishes and enjoys, built to the motto: *Final Fantasy Tactics meets Xenogears*.
@@ -51,6 +51,10 @@ Brent's red-pen rights: he can change any of this, anytime. His call, always.
 - 2026-09-18: visual/systems upgrade attempted via edits **twice** — builder claimed success both times, screenshot review proved the old build was still served. Brent confirmed.
 - 2026-09-18: Brent ordered teardown + fresh rebuild, full creative handover ("take over… write your own story. Everything."). Old artifact deleted; **fresh build of Relicbound in progress** (slug `sci-fantasy-tactical-jrpg`).
 - Lesson: verify visually before handing over. Don't trust builder success claims alone.
+- 2026-09-20 (~20:22 PDT): co-op milestone **published** to the public URL — "Abbiecakes's turn" async co-op (AB1 brief + compact/multiline order codes with readable preview, 200-entry co-op log), full-control RBSAVE/1 handoff with checksums, read-only banner for another identity's save, tap-operability pass. Verified 52/52 in-build checks **on the pre-fix build** (count is stale — needs a fresh post-fix run).
+- 2026-09-20 (late): five **staged, unpublished** fixes — Drowned Undercroft gate retune (enemy HP ≈53/61/48, forward spawns, heroes ≥5 move; note: retune function may apply to all non-random non-training tactical story battles, flagged not fixed), Retreat flow with party-HP snapshot preserve/restore, move-snapping that filters occupied/out-of-range tiles first, named target buttons (kind/HP%/distance) + 76×84 enemy touch ellipses, NPC "Nearby: <name> · tap again or press OK to talk" hint. Source-verified only; gate battle never won, duration never measured, dungeon interior never reached.
+- 2026-09-21 (~00:20 PDT): **Cycle 1** — battle UI de-cramp for 390px-class phones (larger classic-combat menus and target rows, roomier vertical tactical flow without d-pad overlap, all tap targets ≥44px, confirm steps for classic Escape/Guard/Area and tactical Guard) + tactical battle-scene lighting/terrain texture graphics pass. Builder-reported; staged in the **unpublished draft** behind the Cycle 0 live-verification gate. Public link still serves the 2026-09-20 co-op milestone.
+- Standing: no draft preview URL exists — a browser task cannot address the unpublished draft; live verification requires publishing first (parent's call).
 
 ## 7. Decisions log
 - 2026-09-18 — No Godot; web game is the real thing. (Brent)
